@@ -11,6 +11,8 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"/>
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    
     <script>
         (function (w, d, s, o, f, js, fjs) {
           w["botsonic_widget"] = o;
@@ -24,13 +26,11 @@
           js.src = f;
           js.async = 1;
           fjs.parentNode.insertBefore(js, fjs);
-        })
-        (window, document, "script", "Botsonic", "https://writesonic.s3.amazonaws.com/frontend-assets/CDN/botsonic.min.js");
+        })(window, document, "script", "Botsonic", "https://d1m9uqhmlogh4h.cloudfront.net/CDN/botsonic.min.js");
         Botsonic("init", {
           serviceBaseUrl: "https://api.writesonic.com",
-          token: "5af90c00-d077-4a87-bc25-5e0478f64ec0",
-        }
-        );
+          token: "d3aeaeff-fb96-4f01-a3a3-b8cd576d628c",
+        });
       </script>
 </head>
 <body>
@@ -43,7 +43,7 @@
             <ul class="menu">
                 <li><a href="#home" class="menu-btn">Home</a></li>
                 <li><a href="#about" class="menu-btn">About</a></li>
-                <li><a href="#services" class="menu-btn">Courses</a></li>
+                <li><a href="#services" class="menu-btn">Ask Doubts</a></li>
                 <li><a href="#skills" class="menu-btn">Quiz</a></li>
                 <li><a href="#teams" class="menu-btn">Team</a></li>
                 <li><a href="#contact" class="menu-btn">Contact Us</a></li>
@@ -79,37 +79,6 @@
                     <p>We're the best in our field, and it's all thanks to the incredible relationships we've formed with our clients. Unlike our competitors, we're invested in developing a personal connection with each and every one of our customers, by providing quality service and being available to you 24/7. Get in touch with us when you're ready to learn more; we can't wait to meet you!</p>
                     <a href="#">Download Brochure</a>
                 </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- services section start -->
-    <section class="services" id="services">
-        <div class="max-width">
-            <h2 class="title">My services</h2>
-            <div class="serv-content">
-                <div class="card">
-                    <div class="box">
-                        <i class="fas fa-paint-brush"></i>
-                        <div class="text">Weaving</div>
-                        <p>Weaving involves the creation of fabric by interlacing yarns on a loom.</p>
-                    </div>
-                </div>
-                <div class="card">
-                    <div class="box">
-                        <i class="fas fa-paint-brush"></i>
-                        <div class="text">Dyeing</div>
-                        <p>Dyeing is the process of coloring the yarn or fabric using natural or synthetic dyes. </p>
-                    </div>
-                </div>
-                <div class="card">
-                    <div class="box">
-                        <i class="fas fa-paint-brush"></i>
-                        <div class="text">Printing</div>
-                        <p>Printing involves applying designs or patterns onto the fabric using block printing or screen printing techniques.</p>
-                    </div>
-                </div>
-               </div>
             </div>
         </div>
     </section>
@@ -168,41 +137,41 @@
     <!-- teams section start -->
     <section class="teams" id="teams">
         <div class="max-width">
-            <h2 class="title">My Team</h2>
+            <h2 class="title">Our Sponsors</h2>
             <div class="carousel owl-carousel">
                 <div class="card">
                     <div class="box">
                         <img src="images/profile-1.jpeg" alt="">
-                        <div class="text">Raghav Sharma</div>
-                        <p>Design Lead</p>
+                        <div class="text">PhonePe</div>
+                        <p>Digital Payments App</p>
                     </div>
                 </div>
                 <div class="card">
                     <div class="box">
                         <img src="images/profile-2.jpeg" alt="">
-                        <div class="text">Rohit Shrivastava</div>
-                        <p>Marketing Lead</p>
+                        <div class="text">Amazon</div>
+                        <p>Most Popular E-Commerce Online store</p>
                     </div>
                 </div>
                 <div class="card">
                     <div class="box">
                         <img src="images/profile-3.jpeg" alt="">
-                        <div class="text">Anita Jha</div>
-                        <p>Social Media and Advertisement Lead</p>
+                        <div class="text">Google</div>
+                        <p>One of the most popularly used Interner Surfing Platform</p>
                     </div>
                 </div>
                 <div class="card">
                     <div class="box">
                         <img src="images/profile-4.jpeg" alt="">
-                        <div class="text">Harsh Agarwal</div>
-                        <p>Founder and CEO, Tech Lead</p>
+                        <div class="text">NordVPN</div>
+                        <p>One of the best providers Of VPN</p>
                     </div>
                 </div>
                 <div class="card">
                     <div class="box">
                         <img src="images/profile-5.jpeg" alt="">
-                        <div class="text">Harshita Gupta</div>
-                        <p>Accountancy and Monetary Lead</p>
+                        <div class="text">Dell</div>
+                        <p>One of the Most Popolar Laptop building Company</p>
                     </div>
                 </div>
             </div>
@@ -268,10 +237,51 @@
     </section>
 
     <!-- footer section start -->
-    <footer>
-        <span>Created By Nimish Mittal | <span class="far fa-copyright"></span> 2023 All rights reserved.</span>
-    </footer>
-
+    <footer class="footer">
+        <div class="container">
+         <div class="row">
+           <div class="footer-col">
+             <h4>CodeBridge</h4>
+             <ul>
+               <li><a href="#">about us</a></li>
+               <li><a href="#">ask doubts</a></li>
+               <li><a href="#">quiz</a></li>
+               <li><a href="#">contact us</a></li>
+             </ul>
+           </div>
+           <div class="footer-col">
+             <h4>get help</h4>
+             <ul>
+               <li><a href="#">FAQ</a></li>
+               <li><a href="#">HTML</a></li>
+               <li><a href="#">CSS</a></li>
+               <li><a href="#">JS</a></li>
+               <li><a href="#">git and gitHub</a></li>
+             </ul>
+           </div>
+           <div class="footer-col">
+             <h4>services and challenges</h4>
+             <ul>
+               <li><a href="#">AI Chatbot</a></li>
+               <li><a href="#">Quizzes</a></li>
+               <li><a href="#">Sign-Up & Login</a></li>
+               <li><a href="#">Firebase Authentication</a></li>
+             </ul>
+           </div>
+           <div class="footer-col">
+             <h4>follow us</h4>
+             <div class="social-links">
+               <a href="#"><i class="fab fa-facebook-f"></i></a>
+               <a href="#"><i class="fab fa-twitter"></i></a>
+               <a href="#"><i class="fab fa-instagram"></i></a>
+               <a href="#"><i class="fab fa-linkedin-in"></i></a>
+             </div>
+           </div>
+         </div>
+        </div>
+        <p>Created by Team Panthers C 2023 All Rights Reserved</p>
+     </footer>
+   
     <script src="home.js"></script>
 </body>
 </html>
