@@ -34,7 +34,7 @@ html{
 }
 #data_img:hover{
     transition: 1s;
-    border: 2px solid lightblue;
+    border: 2px solid rgb(161, 209, 225);
     
 
 }
