@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:500&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Dancing+Script&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+html {
+	scroll-behavior: smooth;
+}
+body {
+	background: #FFF;
+	font-family: 'Open Sans', sans-serif;
+}
+
+header {
+	height: 90vh;
+	/* background: #000; */
+}
+.black {
+	box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
+}
+nav {
+	padding-top: 20px;
+	padding-bottom: 20px;
+	top: 0;
+	position: fixed;
+	display: flex;
+	width: 100%;
+	z-index: 1000;
+	background: #fff;
+	justify-content: space-around;
+	transition: 1.5s;
+	align-items: center;
+}
+nav ul {
+	display: flex;
+	align-items: center;
+}
+nav ul li {
+	list-style: none;
+	margin: 5px 10px;
+}
+nav ul li a {
+	padding: 2px 10px;
+	color: #2e2e2e;
+	cursor: pointer;
+	transition: .5s;
+	text-decoration: none;
+}
+nav ul li a:hover {
+	color: #fff;
+	border-radius: 5px;
+	background: #DF2771;
+}
+.active {
+	color: #fff;
+	border-radius: 5px;
+	background: #DF2771;
+}
+.srch {
+	padding: 2px 10px;
+	display: flex;
+	/* align-items: center; */
+	justify-content: center;
+	/* background: #0066ff; */
+	border: 1px solid;
+	border-radius: 20px;
+}
+.srch img {
+	width: 25px;
+	cursor: pointer;
+}
+.srch .search {
+	/* padding: 2px 10px; */
+	outline: none;
+	border: none;
+	background: transparent;
+}
+
+.get-started {
+	margin-left: 50px;
+	padding: 5px 20px;
+	border: 2px solid #DF2771;
+	border-radius: 20px;
+	text-decoration: none;
+	
+	transition: .5s;
+	background-color: #DF2771;
+	color: #fff;
+}
+.get-started:hover {
+	color: #2e2e2e;
+	background: #fff;
+}
+.logo img{
+	width: 120px;
+	cursor: pointer;
+	transition: all 1s;
+}
+
+a, button {
+	float: left;
+	font-family: "Montserrat", sans-serif;
+	font-weight: 500;
+	font-size: 15px;
+	color: #2E3D49;
+	display: block;
+	text-decoration: none;
+	text-align: center;
+}
+.head-container {
+	margin-top: 245px;
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: space-around;
+}
+.quote {
+	width: 600px;
+	transform: translateY(-50px);
+}
+.quote h5 {
+	margin-top: 20px;
+	color: #0009;
+	line-height: 20px;
+}
+.quote p {
+	font-size: 50px;
+	color: #2e2e2e;
+}
