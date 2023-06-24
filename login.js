@@ -50,7 +50,8 @@ document.getElementById("login").addEventListener("click", function () {
       console.log(user);
       alert(user.email + " Login successfully!!!");
       // document.getElementById('logout').style.display = 'block';
-      // ...
+      // Redirect to home.html
+      window.location.href = "home.html";
     })
     .catch((error) => {
       const errorCode = error.code;
