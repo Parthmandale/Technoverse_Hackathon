@@ -4,7 +4,7 @@ const questions=[
         answers: [
             {text: "#example", correct: true},
             {text: ".example", correct: false},
-            {text: "<example>", correct: false},
+            {text: "!example", correct: false},
             {text: "example", correct: false},
         ]
     },
