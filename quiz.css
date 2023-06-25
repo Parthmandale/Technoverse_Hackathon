@@ -5,8 +5,7 @@
     box-sizing: border-box;
 }
 body{
-    background: #001e4d;
-
+    background-image: url(images/backgd.jpeg);
 }
 .app{
     background: #fff;
