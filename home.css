@@ -126,6 +126,45 @@ section .title::after{
     color: #fff;
 }
 
+/* dropdown css  */
+/* Dropdown menu */
+.navbar .menu .dropdown {
+    position: relative;
+}
+
+.navbar .menu .dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+.navbar .menu .dropdown-menu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 999;
+    min-width: 160px;
+    background-color: #fff;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.navbar .menu .dropdown-menu li {
+    padding: 12px 16px;
+}
+
+.navbar .menu .dropdown-menu li a {
+    display: block;
+    color: #333;
+    font-size: 16px;
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+
+.navbar .menu .dropdown-menu li a:hover {
+    color: crimson;
+}
+
+
+
 /* menu btn styling */
 .menu-btn{
     color: #fff;
@@ -309,7 +348,7 @@ section .title::after{
 /* skills section styling */
 
 .skills .title::after{
-    content: "who all trust us";
+    content: "what do they say";
 }
 .skills .skills-content .column{
     width: calc(50% - 30px);
@@ -383,7 +422,7 @@ section .title::after{
 
 /* teams section styling */
 .teams .title::after{
-    content: "who in team";
+    content: "where they work";
 }
 .teams .carousel .card{
     background: #222;
