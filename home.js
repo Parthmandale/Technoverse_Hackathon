@@ -35,14 +35,14 @@ $(document).ready(function(){
 
     // typing text animation script
     var typed = new Typed(".typing", {
-        strings: ["Everyone", "Fun", "Love", "Enthusiasm", "Quizzes", "AI ChatBot"],
+        strings: ["Love", "Enthusiasm", "Quizzes", "AI ChatBot"],
         typeSpeed: 100,
         backSpeed: 60,
         loop: true
     });
 
     var typed = new Typed(".typing-2", {
-        strings: ["Everyone", "Fun", "Love", "Enthusiasm", "Quizzes", "AI ChatBot"],
+        strings: ["Love", "Enthusiasm", "Quizzes", "AI ChatBot"],
         typeSpeed: 100,
         backSpeed: 60,
         loop: true
@@ -71,3 +71,7 @@ $(document).ready(function(){
         }
     });
 });
+
+function showChatbotMessage() {
+    alert("Use AI Chatbot located at the bottom-left corner of the Website to Clear your Doubts.");
+}
