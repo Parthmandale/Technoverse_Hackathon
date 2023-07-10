@@ -4,29 +4,29 @@ This project(site) is made under Technoverse Hackathon by Team Panthers
 
 # Code Bridge 🚀👨‍💻
 
-Code Bridge is a distinguished online platform dedicated to delivering exceptional services to a students and learners. Functioning as an innovative website, Code Bridge has been meticulously designed to provide an enriching educational experience through an engaging and interactive learning environment. Our platform boasts a comprehensive features and curated resources that serve to empower students on their education, offering unwavering support throughout their academic endeavors.
+Code Bridge is a distinguished online platform dedicated to delivering exceptional services to students and learners. Functioning as an innovative website, Code Bridge has been meticulously designed to provide an enriching educational experience through an engaging and interactive learning environment. Our platform boasts comprehensive features and curated resources that serve to empower students in their education, offering unwavering support throughout their academic endeavors.
 
-## Visit Our Site : https://parthmandale.github.io/Technoverse_Hackathon/ 👨🏻‍💻
+## Visit Our Site: https://parthmandale.github.io/Technoverse_Hackathon/ 👨🏻‍💻
 
-## Purpose 🤔❓
+## Problem Solving❓
 
-Code Bridge strives to create an engaging learning experience for students by integrating gamified quizzes and a chatbot for doubt resolution. The platform covers all important subjects of Computer Science like Data Structure and algo, JavaScript, Git(version control), CSS and HTML (front-end) offering high-quality resources. Its goal is to make studying enjoyable and encourage active participation.
+Code Bridge strives to create an engaging learning experience for students by integrating gamified quizzes and a chatbot for doubt resolution. The platform covers all important subjects of Computer Science like Data Structure and algo, JavaScript, Git(version control), CSS, and HTML (front-end) offering high-quality resources. Its goal is to make studying enjoyable and encourage active participation.
 
-## Features 😱
+## Features 
 
-### User Signup and Login 👥👥
+### Signup and Login 👥
 
 The platform begins with a signup page where students can create an account. Upon successful registration, they can log in using their credentials to access the platform's features.
 
-### Home Page with Quizzes 😶
+### Quizzes🔎
 
-After logging in, students are directed to the home page, which serves as the central hub for their learning activities. Here, they can explore and play quizzes on various subjects like JavaScript, Git(version control), CSS and HTML (front-end). The quizzes are designed to test their knowledge, reinforce concepts, and provide an opportunity for self-assessment.
+After logging in, students are directed to the home page, which serves as the central hub for their learning activities. Here, they can explore and play quizzes on various subjects like JavaScript, Git(version control), CSS, and HTML (front-end). The quizzes are designed to test their knowledge, reinforce concepts, and provide an opportunity for self-assessment.
 
-### Chatbot for Doubt Resolution 💬👽
+### Chatbot for Doubt solving 💬
 
 To enhance the learning experience, the platform integrates a chatbot powered by Botsonic. Students can use the chatbot to ask questions and seek clarification on specific topics. The chatbot provides relevant responses based on the input, helping students address their doubts effectively. It covers all doubts asked around the field of computer science, As we have trained it for that. 
 
-## Built With 👷‍♂👷‍🏭
+## Technologies Used 🤖🦾
 
 👉 Front-End:
 
@@ -34,7 +34,7 @@ To enhance the learning experience, the platform integrates a chatbot powered by
 - [CSS](https://www.css3.com)
 - [JavaScript](https://www.javascript.com/)
 
-👉 Sign Up Feature Integreation:
+👉 Sign Up Feature Integration:
 
 - [Firebase](https://firebase.google.com/docs/auth)
 
